@@ -28,6 +28,7 @@ button {
 .strict {
     height: 800px;
     background: url(../img/strict.png);
+    background-repeat: no-repeat;
 
     color: #FFFFFF;
     //*font-weight: 400;*//
@@ -167,14 +168,22 @@ a:hover {
     text-align: left;
     border-radius: 2px;
 }
-footer {
+.footer {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .list_footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+.footer_f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    outline: 1px solid black;
+    width: 175px;
+    margin-left: 700px;
 }
